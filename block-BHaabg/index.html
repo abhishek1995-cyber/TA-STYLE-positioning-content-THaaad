@@ -13,3 +13,54 @@
 6. After the gallery section footer will come.
 
 7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta>
+        <title>Gallery layout</title>
+        <link rel="stylesheet" href="./media/stylesheet/style.css">
+    </head>
+    <body id="top">
+        <header class="clearfix">
+            <img class="logo" src="./media/asset/logo.png" alt="logo" width="100%">
+            <nav class="nav">
+                <a class="nav-link" href="https://www.facebook.com/loremipsumwebsite/">Facebook</a>
+                <a class="nav-link" href="https://www.instagram.com/lorem_ipsum_kl/?hl=en">Instagram</a>
+                <a class="nav-link" href="https://twitter.com/twipsum?lang=en">Twitter</a>
+            </nav>
+        </header>
+        <main>
+            <article class="article clearfix" >
+                <div class="coloumn1">
+                    <h1>Lorem ipsum</h1>
+                    <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available. It is also used to temporarily replace text in a process called greeking, which allows designers to consider the form of a webpage or publication, without the meaning of the text influencing the design.
+                    Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin.    
+                    Versions of the Lorem ipsum text have been used in typesetting at least since the 1960s, when it was popularized by advertisements for Letraset transfer sheets.[1] Lorem ipsum was introduced to the digital world in the mid-1980s, when Aldus employed it in graphic and word-processing templates for its desktop publishing program PageMaker. Other popular word processors, including Pages and Microsoft Word, have since adopted Lorem ipsum,[2] as have many LaTeX packages,[3][4][5] web content managers such as Joomla! and WordPress, and CSS libraries such as Semantic</p>
+                </div><!---
+                --><div class="coloumn2">
+                    <img src="./media/asset/lorem ipsum.png" width="100%">
+                </div>
+            </article>
+            <gallery class="clearfix">
+                <div class="row1 gallery1">
+                    <h1>Gallery</h1>
+                    <img class="col" src="./media/asset/lorem 1.jpeg" alt="lorem1" >
+                    <img class="col" src="./media/asset/lorem 2.jpeg" alt="lorem2" >
+                    <img class="col" src="./media/asset/lorem3.jpeg" alt="lorem3" >
+                </div>
+                <div class="row2 gallery1">
+                    <img class="col1" src="./media/asset/lorem 4.jpeg" alt="lorem4">
+                    <img class="col1" src="./media/asset/lorem5.jpeg" alt="lorem5">
+                    <img class="col1" src="./media/asset/lorem 6.jpeg" alt="lorem6">
+                </div>
+            </gallery>
+        </main>
+        <footer class="footer">
+            <small>&COPY;</small>
+            <span>loremipsumpvt</span>
+            <div class="btn">
+                <p class="button"><a href="#top">TOP</a></p>
+            </div>
+        </footer>
+    </body>
+</html>
